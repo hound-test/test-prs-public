@@ -1,4 +1,4 @@
 class Test
-  def main
+     def main
   end
 end
