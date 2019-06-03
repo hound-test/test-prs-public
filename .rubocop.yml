@@ -6,6 +6,9 @@
 AllCops:
   TargetRubyVersion: 2.6
 
+Lint/Debugger:
+  Enabled: false
+
 # Indent when as deep as case.
 Layout/CaseIndentation:
   Enabled: false
