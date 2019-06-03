@@ -1,3 +1,5 @@
+require: rubocop-rails
+
 # Set proper ruby version.
 # Seems like the houndci doesn't have access to the .ruby-version file
 # or the rubocop version is too old. The problem was actually solved by the
@@ -5,9 +7,6 @@
 # https://github.com/bbatsov/rubocop/issues/2956
 AllCops:
   TargetRubyVersion: 2.6
-
-Lint/Debugger:
-  Enabled: false
 
 # Indent when as deep as case.
 Layout/CaseIndentation:
